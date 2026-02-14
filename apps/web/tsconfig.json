@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "jsx": "react-jsx",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "paths": {
+      "@lightwatch/shared": ["../../packages/shared/src"]
+    }
+  },
+  "include": ["src"]
+}
